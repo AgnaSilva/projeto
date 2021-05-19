@@ -1,0 +1,276 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  background: #f2f2f2;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+body{
+  margin: 5%;
+  padding: 5%;
+  background: white;
+  color: #641752;
+ 
+
+}
+section{
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f2f2f2;
+}
+header{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  padding: 10px 100px;
+}
+
+header .logo{
+  position: relative;
+  max-width: 100px;
+}
+
+.beneficios{
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 900%;
+  font-size: 100%;
+  line-height: 2.0em;
+}
+
+
+.content .principal{
+  position: relative;
+  max-width: 600px;
+}
+
+.content .principal h2{
+  font-size: 2em;
+  color: #641752;
+  line-height: 1.4em;
+  font-weight: 300%;
+  
+  
+}
+.content .principal h2 {
+  color: #641752;
+  line-height: 1.2em;
+  font-weight: 400%;
+}
+
+.content .principal p{
+  color: #641752;
+  font-size: 150%;
+  line-height: 1.4em;
+  
+
+}
+
+.imgBox{
+  border-radius: 500%;
+  width: 300px;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 30px;
+  margin-top: 30px;
+  right: 100%;
+  transform: translateY(-20%);
+  border: 3px solid #641752 ;
+  max-width: 300px;
+ 
+}
+
+.imgBox img{
+  border-radius: 500%;
+  width: 300px;
+  display: flex;
+  justify-content: flex;
+  padding-right: 30px;
+  transform: translateX(16%);
+  margin-top: 10px;
+  right: 100%;
+
+  
+}
+
+.circle{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #641752;
+  clip-path: circle(200px at right 400px);
+}
+ 
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  padding-left: 20px;
+  margin-right: 20px;
+  right: 100%;
+  height: 100px ;
+  margin: 20px;
+ 
+}
+.container p{
+  justify-content: right;
+  display: inline-block;
+  width: 90px;
+  right: 100% ;
+}
+
+.container2 img{
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding-right: 20px;
+  margin-right: 20px;
+  left: 100%;
+  height: 100px ;
+  margin: 20px;
+}
+
+.container2 img{
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding-right: 20px;
+  margin-right: 20px;
+  left: 100%;
+  height: 100px ;
+  margin: 20px;
+}
+.container p2{
+  justify-content: center;
+  display: inline-block;
+  width: 90px;
+  right: 100% ;
+}
+
+.table{
+  width: 100%;
+  border-collapse: collapse;
+}
+.table td, .table th{
+  padding: 12px 15px;
+  border: 1px solid #f2f2f2;
+  text-align: center;
+}
+
+.borda{
+  border: 1px solid #641752;
+  padding: 20px;
+}
+
+.travel{
+  position: relative;
+  list-style: none ;
+  display: flex;
+  justify-content: space-around;
+  cursor: pointer;
+}
+
+.conteudotravel{
+  display: table;
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  padding: 100px;
+  background: #f2f2f2;
+}
+
+.imagemtravel{
+  display:table-cell;
+  float: left;
+  width: 400px;
+  background: #f2f2f2
+}
+  
+.textotravel{
+  display:table-cell;
+  float: left;
+  width: 300px;
+  background: #f2f2f2;
+  color: #641752;
+  line-height:2.0em;
+  font-weight: 400%;
+}
+
+
+.conheca ul{
+  position: relative;
+  list-style: none ;
+  display: flex;
+  cursor: pointer;
+}
+
+.container { 
+    width: 1000px; 
+    margin-left: auto;
+    margin-right: auto; 
+
+}
+.center button{
+  position: relative;
+  width: 100%;
+  border: 2px solid purple;
+  transition: ease-in-out .25s;
+  padding: 20px 90px;
+  cursor: pointer;
+  border-radius:50px;
+  background: purple;
+  font-style: bold;
+}
+    
+button{
+  font-style: bold;
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+  position: relative;
+  width: 500px; 
+  margin-left: auto;
+  margin-right: auto;
+  
+
+}
+  
+.button:hover{
+  background: hsla(305, 94%, 39%, 0.527)
+}
+
+footer{
+  width: 90%;
+  height: 2px;
+}
+
+.imgfooter1, .imgfooter2{
+  width: 50px; 
+  margin-left: auto;
+  margin-right: auto ; 
+  
+}
+
+hr {
+width: 100%;
+height: 2px;
+background-color: purple;
+margin-right: auto;
+margin-left: auto;
+margin-top: 2px;
+margin-bottom: 2px;
+border-width: 2px;
+border-color: purple;
+}
+
